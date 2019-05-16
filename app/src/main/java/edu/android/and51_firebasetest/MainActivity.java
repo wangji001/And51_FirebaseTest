@@ -85,9 +85,7 @@ public class MainActivity extends AppCompatActivity {
                     String[] info = {person.getId(), person.getName(), person.getAge()};
                     String result = info[0] + " - " + info[1] + " - " + info[2] + "\n";
                     builder.append(result);
-                    if(person.getName().equals("gildong")){
-                        Toast.makeText(MainActivity.this, "길동이 입니다", Toast.LENGTH_SHORT).show();
-                    }
+                   
 
                 }
                 
